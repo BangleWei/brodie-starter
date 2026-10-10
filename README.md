@@ -27,7 +27,7 @@ On Linux, run `uv pip install torch torchvision --index-url https://download.pyt
 The models, voice clips and sample recordings are not in git. Download them from this repo's release and unpack them at the repo root:
 
 ```
-gh release download data-2026-10-09 -p "*part1*" -p "*part3*"
+for p in part1_models_recordings part3_bank_puck; do curl -sSfLO https://github.com/seraphimlabs-dev/brodie-starter/releases/download/data-2026-10-09/rtcoach_starter_${p}_2026-10-09.tgz; done
 tar xzf rtcoach_starter_part1_models_recordings_2026-10-09.tgz && tar xzf rtcoach_starter_part3_bank_puck_2026-10-09.tgz
 ```
 
