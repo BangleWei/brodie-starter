@@ -4,6 +4,18 @@ const MAX_PER_TEAM = 2;
 const MARK = '<!-- slot-bot -->';
 const PAGE = 'https://getbrodie.com/ivyhacks/slots';
 
+const GARY = '577833469842030612';               // Discord user who provisions the FaceTime line
+
+// Ping Gary in #staff-chat (webhook in secret DISCORD_LINE_WEBHOOK). Only Gary can be mentioned; team text cannot ping anyone.
+async function pingGary(text) {
+  const hook = process.env.DISCORD_LINE_WEBHOOK;
+  if (!hook) return console.log('DISCORD_LINE_WEBHOOK not set, skipping Discord ping');
+  const clean = text.replace(/@/g, '@\u200b');
+  const r = await fetch(hook, { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ content: `<@${GARY}> ${clean}`.slice(0, 1900), allowed_mentions: { parse: [], users: [GARY] } }) });
+  if (!r.ok) console.log('Discord ping failed', r.status, await r.text());
+}
+
 function field(body, name) {
   const m = (body || '').match(new RegExp('### ' + name + '\\s*\\n+([^\\n]+)'));
   const v = m ? m[1].trim() : '';
@@ -17,6 +29,14 @@ module.exports = async ({ github, context }) => {
   const slotLabel = field(issue.body, 'Slot');
   const team = field(issue.body, 'Team name');
   const slot = slots.find(s => s.label === slotLabel);
+  const who = () => `**${team}** (agent \`${field(issue.body, 'Agent name') || '?'}\`, Discord ${field(issue.body, 'Discord handle') || '?'}, ${field(issue.body, 'Testing from') || '?'})`;
+
+  if (context.payload.action === 'closed') {
+    const names = (issue.labels || []).map(l => l.name);
+    if (names.includes('booked') && !names.includes('slot-rejected') && slot && new Date(slot.end) > new Date())
+      await pingGary(`line booking cancelled: ${who()} gave up **${slot.label}**. ${issue.html_url}`);
+    return;
+  }
 
   const say = body => github.rest.issues.createComment({ owner, repo, issue_number: issue.number, body: MARK + '\n' + body });
   const reject = async why => {
@@ -48,6 +68,7 @@ module.exports = async ({ github, context }) => {
 
   const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number: issue.number, per_page: 100 });
   if (comments.some(c => c.body && c.body.startsWith(MARK) && c.body.includes('✅'))) return;
+  await pingGary(`provision the FaceTime line: ${who()} booked **${slot.label}**. ${issue.html_url}`);
   const agent = field(issue.body, 'Agent name') || 'team-yourname-agent';
   await say(`✅ **${slot.label}** is yours, ${team}.
 
