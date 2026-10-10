@@ -91,4 +91,4 @@ The same pages are at [seraphimlabs.dev/hackathon](https://seraphimlabs.dev/hack
 
 ## Licence
 
-The models and the thresholds (`clf_pose.pt`, `trigger_lr.json`, `src/rtcoach/thresholds_e3c.json`, `src/rtcoach/cue_prior.json`) are covered by a research evaluation licence. Keep them private: do not push this repo or its data anywhere public.
+The models and the thresholds (`clf_pose.pt`, `trigger_lr.json`, `src/rtcoach/thresholds_e3c.json`, `src/rtcoach/cue_prior.json`) come from a research evaluation licence. Use them for this hackathon only and do not redistribute them.
