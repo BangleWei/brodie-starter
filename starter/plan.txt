@@ -1,0 +1,1 @@
+squats:10,pushups:8,jumping jacks:20,lunges:10

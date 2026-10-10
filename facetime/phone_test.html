@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coach phone test</title>
+<!--
+Tier (c): open this page on a phone to stand in for the Chert bridge without FaceTime.
+It joins the LiveKit room as the bridge identity (default "chert-bridge"), publishes the environment-facing (or front, with &facing=user)
+camera (1280x720 if the phone allows) as a video track named "facetime-remote-video", and plays whatever the
+coach ("brodie-agent") publishes on its audio track. Query string or form: ?url=wss://...&token=...&identity=...
+Mint the token with:  .venv/bin/python -m facetime.mint_token --room <room> --url
+Serve the file over https or open it as a local file in Safari (camera access needs a secure context or file://).
+-->
+<script src="https://cdn.jsdelivr.net/npm/livekit-client@2.22.3/dist/livekit-client.umd.min.js"></script>
+<style>
+  :root { --bg:#f6f7f9; --fg:#141518; --mut:#5d6470; --ok:#1a7f4b; --bad:#b3261e; --card:#ffffff; --line:#dfe3e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111317; --fg:#eceef2; --mut:#9aa3b0; --ok:#4cc38a; --bad:#ff7b72; --card:#1b1e24; --line:#2b2f37; } }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--fg); font:16px/1.4 -apple-system, system-ui, sans-serif; }
+  h1 { font-size:20px; margin:0 0 12px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px; margin-bottom:12px; }
+  label { display:block; font-size:13px; color:var(--mut); margin-top:8px; }
+  input { width:100%; box-sizing:border-box; padding:8px; border:1px solid var(--line); border-radius:6px; background:transparent; color:var(--fg); font-size:14px; }
+  button { padding:10px 16px; border:0; border-radius:8px; background:#2457d6; color:#fff; font-size:16px; margin-top:12px; }
+  button.secondary { background:var(--mut); }
+  .row { display:flex; gap:12px; flex-wrap:wrap; }
+  .stat { font-size:14px; } .stat b { display:inline-block; min-width:120px; color:var(--mut); font-weight:500; }
+  .ok { color:var(--ok); } .bad { color:var(--bad); }
+  video { width:100%; max-height:50vh; background:#000; border-radius:8px; }
+  #log { font:12px/1.4 ui-monospace, monospace; white-space:pre-wrap; max-height:30vh; overflow:auto; color:var(--mut); }
+</style>
+</head>
+<body>
+<h1>Coach phone test</h1>
+<div class="card">
+  <label>LiveKit URL <input id="url" placeholder="wss://your-project.livekit.cloud"></label>
+  <label>Token <input id="token" placeholder="paste the minted token"></label>
+  <label>Identity (informational, the token decides) <input id="identity" value="chert-bridge"></label>
+  <div class="row">
+    <button id="join">Join and publish camera</button>
+    <button id="leave" class="secondary" disabled>Leave</button>
+    <button id="unmute" class="secondary" style="display:none">Tap to enable audio</button>
+  </div>
+</div>
+<div class="card">
+  <div class="stat"><b>Connection</b> <span id="state">idle</span></div>
+  <div class="stat"><b>Coach present</b> <span id="agent" class="bad">no</span></div>
+  <div class="stat"><b>Coach audio</b> <span id="audio">none</span></div>
+  <div class="stat"><b>Camera</b> <span id="cam">off</span></div>
+</div>
+<div class="card"><video id="preview" autoplay playsinline muted></video></div>
+<div class="card"><div id="log"></div></div>
+<script>
+const q = new URLSearchParams(location.search);
+const $ = id => document.getElementById(id);
+for (const k of ['url','token','identity']) if (q.get(k)) $(k).value = q.get(k);
+const AGENT = q.get('agent') || 'brodie-agent';
+const TRACK_NAME = 'facetime-remote-video';
+const log = m => { const t = new Date().toISOString().slice(11,23); $('log').textContent = `${t} ${m}\n` + $('log').textContent; };
+let room = null, audioEls = [];
+function setAgent(present) { $('agent').textContent = present ? 'yes' : 'no'; $('agent').className = present ? 'ok' : 'bad'; }
+async function join() {
+  const url = $('url').value.trim(), token = $('token').value.trim();
+  if (!url || !token) { log('need url and token'); return; }
+  const LK = window.LivekitClient;
+  room = new LK.Room({ adaptiveStream: false, dynacast: false });
+  room.on(LK.RoomEvent.ConnectionStateChanged, s => { $('state').textContent = s; log('state ' + s); });
+  room.on(LK.RoomEvent.ParticipantConnected, p => { log('joined: ' + p.identity); if (p.identity === AGENT) setAgent(true); });
+  room.on(LK.RoomEvent.ParticipantDisconnected, p => { log('left: ' + p.identity); if (p.identity === AGENT) setAgent(false); });
+  room.on(LK.RoomEvent.TrackSubscribed, (track, pub, p) => {
+    log(`subscribed ${pub.kind} "${pub.trackName}" from ${p.identity}`);
+    if (track.kind === 'audio') { const el = track.attach(); el.autoplay = true; document.body.appendChild(el); audioEls.push(el); $('audio').textContent = 'playing from ' + p.identity;
+      el.play().catch(() => { $('unmute').style.display = 'inline-block'; }); }
+    if (track.kind === 'video' && p.identity === AGENT) {   // the coach's avatar (--avatar): shown small, what the FaceTime caller would see
+      let v = document.getElementById('agentvideo');
+      if (!v) { v = document.createElement('video'); v.id = 'agentvideo'; v.autoplay = true; v.playsInline = true; v.muted = true;
+        v.style.cssText = 'position:fixed;right:8px;bottom:8px;width:120px;border:1px solid #888;border-radius:8px;z-index:9'; document.body.appendChild(v); }
+      track.attach(v); log('agent video ' + pub.trackName + ' attached'); }
+  });
+  room.on(LK.RoomEvent.TrackUnsubscribed, (track) => { if (track.kind === 'audio') { track.detach().forEach(e => e.remove()); $('audio').textContent = 'none'; } });
+  room.on(LK.RoomEvent.AudioPlaybackStatusChanged, () => { if (!room.canPlaybackAudio) $('unmute').style.display = 'inline-block'; });
+  try {
+    await room.connect(url, token);
+    log('connected as ' + room.localParticipant.identity + '; room ' + room.name);
+    setAgent([...room.remoteParticipants.values()].some(p => p.identity === AGENT));
+    const facing = new URLSearchParams(location.search).get('facing') === 'user' ? 'user' : 'environment';   // &facing=user for the front camera
+    const track = await LK.createLocalVideoTrack({ facingMode: facing, resolution: { width: 1280, height: 720, frameRate: 30 } });
+    track.attach($('preview'));
+    await room.localParticipant.publishTrack(track, { name: TRACK_NAME, source: LK.Track.Source.Camera, simulcast: false,
+      videoEncoding: { maxBitrate: 2_500_000, maxFramerate: 30 } });
+    const s = track.mediaStreamTrack.getSettings();
+    $('cam').textContent = `${s.width}x${s.height} @${s.frameRate || '?'} fps (${s.facingMode || 'unknown facing'}) as "${TRACK_NAME}"`;
+    log('published ' + TRACK_NAME);
+    $('join').disabled = true; $('leave').disabled = false;
+  } catch (e) { log('ERROR ' + (e && e.message || e)); $('state').textContent = 'error'; }
+}
+async function leave() { if (room) { await room.disconnect(); room = null; } audioEls.forEach(e => e.remove()); audioEls = []; $('join').disabled = false; $('leave').disabled = true; $('cam').textContent = 'off'; setAgent(false); }
+$('join').onclick = join; $('leave').onclick = leave;
+$('unmute').onclick = async () => { if (room) await room.startAudio(); audioEls.forEach(e => e.play().catch(() => {})); $('unmute').style.display = 'none'; };
+if (q.get('autojoin') === '1' && $('url').value && $('token').value) join();
+</script>
+</body>
+</html>

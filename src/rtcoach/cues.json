@@ -1,0 +1,2226 @@
+{
+"air jump rope - heels only": {
+"cue": "Jump on toes",
+"kind": "fault"
+},
+"air jump rope - height=1": {
+"cue": "Jump higher",
+"kind": "fault"
+},
+"air jump rope - height=2": {
+"cue": "Jump higher",
+"kind": "fault"
+},
+"air jump rope - height=3": {
+"cue": "",
+"kind": "neutral"
+},
+"air jump rope - height=4": {
+"cue": "Great height",
+"kind": "good"
+},
+"air jump rope - height=5": {
+"cue": "Excellent height",
+"kind": "good"
+},
+"air jump rope - no jump": {
+"cue": "Start jumping",
+"kind": "fault"
+},
+"air jump rope - no obvious issue": {
+"cue": "Good rhythm",
+"kind": "good"
+},
+"air jump rope - no wrist circles": {
+"cue": "Spin your wrists",
+"kind": "fault"
+},
+"air jump rope - not moving": {
+"cue": "Keep moving",
+"kind": "fault"
+},
+"air jump rope - side to side": {
+"cue": "",
+"kind": "neutral"
+},
+"air jump rope - speed=1.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"air jump rope - speed=1.25 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"air jump rope - speed=1.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"air jump rope - speed=1.75 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating forward lunges - depth=1": {
+"cue": "Sink deeper",
+"kind": "fault"
+},
+"alternating forward lunges - depth=2": {
+"cue": "Lunge lower",
+"kind": "fault"
+},
+"alternating forward lunges - depth=3": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating forward lunges - depth=4": {
+"cue": "Nice depth",
+"kind": "good"
+},
+"alternating forward lunges - depth=5": {
+"cue": "Perfect depth",
+"kind": "good"
+},
+"alternating forward lunges - hands behind head": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating forward lunges - high turnover": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating forward lunges - insufficient": {
+"cue": "Step deeper",
+"kind": "fault"
+},
+"alternating forward lunges - leaning forward": {
+"cue": "Keep chest up",
+"kind": "fault"
+},
+"alternating forward lunges - low turnover": {
+"cue": "Pick up pace",
+"kind": "fault"
+},
+"alternating forward lunges - narrow": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating forward lunges - no obvious issue": {
+"cue": "Great form",
+"kind": "good"
+},
+"alternating forward lunges - normal speed": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating forward lunges - normal width": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating forward lunges - not alternating": {
+"cue": "Alternate your legs",
+"kind": "fault"
+},
+"alternating forward lunges - not bending back leg": {
+"cue": "Bend back knee",
+"kind": "fault"
+},
+"alternating forward lunges - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating forward lunges - wide": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating lateral lunge - heel off the floor": {
+"cue": "Keep heels down",
+"kind": "fault"
+},
+"alternating lateral lunge - knee in line with toe, stepping foot pointing towards the camera": {
+"cue": "Great alignment",
+"kind": "good"
+},
+"alternating lateral lunge - knee out, toes straight": {
+"cue": "Nice alignment",
+"kind": "good"
+},
+"alternating lateral lunge - knee over toe": {
+"cue": "Push hips back",
+"kind": "fault"
+},
+"alternating lateral lunge - knee straight, toes out": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating lateral lunge - no stepping": {
+"cue": "Step to side",
+"kind": "fault"
+},
+"alternating lateral lunge - not alternating": {
+"cue": "Alternate sides",
+"kind": "fault"
+},
+"alternating lateral lunge - rom=1": {
+"cue": "Sink lower",
+"kind": "fault"
+},
+"alternating lateral lunge - rom=2": {
+"cue": "Go deeper",
+"kind": "fault"
+},
+"alternating lateral lunge - rom=3": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating lateral lunge - rom=4": {
+"cue": "Nice depth",
+"kind": "good"
+},
+"alternating lateral lunge - rom=5": {
+"cue": "Excellent depth",
+"kind": "good"
+},
+"alternating lateral lunge - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating lateral lunge - stepping foot pointing away": {
+"cue": "Point toes forward",
+"kind": "fault"
+},
+"alternating lateral lunge - too fast": {
+"cue": "Slow it down",
+"kind": "fault"
+},
+"alternating lateral lunge - too narrow": {
+"cue": "Step wider",
+"kind": "fault"
+},
+"alternating lateral lunge - too shallow": {
+"cue": "Lunge deeper",
+"kind": "fault"
+},
+"alternating lateral lunge - torso bent forward": {
+"cue": "Keep chest up",
+"kind": "fault"
+},
+"alternating lateral lunge - torso bent sideways": {
+"cue": "Keep torso straight",
+"kind": "fault"
+},
+"alternating lateral lunge - wrong knee bent": {
+"cue": "Bend stepping leg",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - arms crossed": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating single leg glutes bridge - arms on the ground": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating single leg glutes bridge - arms up in the air": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating single leg glutes bridge - head off the floor": {
+"cue": "Rest head down",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - heels off the ground": {
+"cue": "Drive through heels",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - hips slightly too low": {
+"cue": "Squeeze hips higher",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - hips very low": {
+"cue": "Drive hips up",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - keeping the hips up": {
+"cue": "Great hip height",
+"kind": "good"
+},
+"alternating single leg glutes bridge - knees in": {
+"cue": "Push knees out",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - knees out": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating single leg glutes bridge - non-working leg bent": {
+"cue": "Extend other leg",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - not alternating": {
+"cue": "Alternate legs",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - shoulders off the ground": {
+"cue": "Keep shoulders down",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"alternating single leg glutes bridge - too fast": {
+"cue": "Control the movement",
+"kind": "fault"
+},
+"alternating single leg glutes bridge - too slow": {
+"cue": "",
+"kind": "neutral"
+},
+"burpee (no pushup) - as fast as possible": {
+"cue": "",
+"kind": "neutral"
+},
+"burpee (no pushup) - good form": {
+"cue": "Great form",
+"kind": "good"
+},
+"burpee (no pushup) - high hips": {
+"cue": "Lower your hips",
+"kind": "fault"
+},
+"burpee (no pushup) - leaning too far forward": {
+"cue": "Keep chest up",
+"kind": "fault"
+},
+"burpee (no pushup) - no jump": {
+"cue": "Jump at top",
+"kind": "fault"
+},
+"burpee (no pushup) - no upright position": {
+"cue": "Stand up straight",
+"kind": "fault"
+},
+"burpee (no pushup) - not moving feet back": {
+"cue": "Kick feet back",
+"kind": "fault"
+},
+"burpee (no pushup) - sitting down": {
+"cue": "Keep moving",
+"kind": "fault"
+},
+"burpee (no pushup) - stepping feet back": {
+"cue": "",
+"kind": "neutral"
+},
+"burpee (no pushup) - stepping feet forward": {
+"cue": "",
+"kind": "neutral"
+},
+"burpee - as fast as possible": {
+"cue": "",
+"kind": "neutral"
+},
+"burpee - high hips": {
+"cue": "Hips down",
+"kind": "fault"
+},
+"burpee - leaning too far forward": {
+"cue": "Chest up",
+"kind": "fault"
+},
+"burpee - no jump": {
+"cue": "Jump at the top",
+"kind": "fault"
+},
+"burpee - no obvious issue": {
+"cue": "Great form",
+"kind": "good"
+},
+"burpee - no upright position": {
+"cue": "Stand up straight",
+"kind": "fault"
+},
+"burpee - on knees": {
+"cue": "Off your knees",
+"kind": "fault"
+},
+"burpee - stepping feet back": {
+"cue": "Jump feet back",
+"kind": "fault"
+},
+"burpee - stepping feet forward": {
+"cue": "Jump feet forward",
+"kind": "fault"
+},
+"buttkickers - bringing knees forward": {
+"cue": "Knees pointing down",
+"kind": "fault"
+},
+"buttkickers - early stopping": {
+"cue": "Keep moving",
+"kind": "fault"
+},
+"buttkickers - feet disappear behind knees": {
+"cue": "",
+"kind": "neutral"
+},
+"buttkickers - feet stay below knees": {
+"cue": "Heels to glutes",
+"kind": "fault"
+},
+"buttkickers - looking at feet": {
+"cue": "Look straight ahead",
+"kind": "fault"
+},
+"buttkickers - not in place": {
+"cue": "Stay in place",
+"kind": "fault"
+},
+"buttkickers - speed=1.60 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"buttkickers - speed=2.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"buttkickers - speed=2.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"buttkickers - speed=3.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"buttkickers - stepping": {
+"cue": "Pick up the pace",
+"kind": "fault"
+},
+"curtsy lunges - left leg back": {
+"cue": "",
+"kind": "neutral"
+},
+"deltoid stretch (left arm) - bent elbow": {
+"cue": "Keep arm straight",
+"kind": "fault"
+},
+"deltoid stretch (left arm) - no grab": {
+"cue": "Pull your arm across your chest",
+"kind": "fault"
+},
+"deltoid stretch (left arm) - pull elbow": {
+"cue": "Good stretch",
+"kind": "good"
+},
+"deltoid stretch (left arm) - wrong side": {
+"cue": "Use your other arm",
+"kind": "fault"
+},
+"deltoid stretch (right arm) - no grab": {
+"cue": "Pull your arm across your chest",
+"kind": "fault"
+},
+"deltoid stretch (right arm) - wrong side": {
+"cue": "Use your other arm",
+"kind": "fault"
+},
+"elbow plank - arms facing inward": {
+"cue": "",
+"kind": "neutral"
+},
+"elbow plank - arms facing inward and legs and hips on the floor": {
+"cue": "Lift your hips",
+"kind": "fault"
+},
+"elbow plank - arms facing inward and on knees": {
+"cue": "Lift your knees",
+"kind": "fault"
+},
+"elbow plank - arms too wide": {
+"cue": "Bring elbows in",
+"kind": "fault"
+},
+"elbow plank - average": {
+"cue": "",
+"kind": "neutral"
+},
+"elbow plank - butt sinking": {
+"cue": "Hips up",
+"kind": "fault"
+},
+"elbow plank - head down": {
+"cue": "Look slightly forward",
+"kind": "fault"
+},
+"elbow plank - head up": {
+"cue": "Keep neck neutral",
+"kind": "fault"
+},
+"elbow plank - high hips": {
+"cue": "Lower your hips",
+"kind": "fault"
+},
+"elbow plank - legs and hips on the floor": {
+"cue": "Lift your body",
+"kind": "fault"
+},
+"elbow plank - on knees": {
+"cue": "Get off knees",
+"kind": "fault"
+},
+"elbow plank - shaking": {
+"cue": "Stay tight",
+"kind": "fault"
+},
+"elbow plank - shoulders shrugged up toward the ears": {
+"cue": "Push shoulders down",
+"kind": "fault"
+},
+"elbow plank - stopping early": {
+"cue": "Hold the plank",
+"kind": "fault"
+},
+"floor touches - feet not under knees": {
+"cue": "Adjust your stance",
+"kind": "fault"
+},
+"floor touches - hand on knees": {
+"cue": "Reach for floor",
+"kind": "fault"
+},
+"floor touches - insufficient reach": {
+"cue": "Reach lower",
+"kind": "fault"
+},
+"floor touches - no obvious issue": {
+"cue": "Great job",
+"kind": "good"
+},
+"floor touches - not bringing feet together": {
+"cue": "Bring feet together",
+"kind": "fault"
+},
+"floor touches - not moving legs": {
+"cue": "Step your feet",
+"kind": "fault"
+},
+"floor touches - opposite": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - rounded back": {
+"cue": "Keep back flat",
+"kind": "fault"
+},
+"floor touches - speed=0.40 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - speed=0.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - speed=0.60 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - speed=0.70 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - speed=0.80 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - stepping": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - stopping early": {
+"cue": "Keep moving",
+"kind": "fault"
+},
+"floor touches - width=1": {
+"cue": "Step wider",
+"kind": "fault"
+},
+"floor touches - width=2": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - width=3": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - width=4": {
+"cue": "",
+"kind": "neutral"
+},
+"floor touches - width=5": {
+"cue": "",
+"kind": "neutral"
+},
+"front lunge kick (left leg) - average": {
+"cue": "",
+"kind": "neutral"
+},
+"front lunge kick (right leg) - average": {
+"cue": "",
+"kind": "neutral"
+},
+"glute hamstring walkout - average": {
+"cue": "",
+"kind": "neutral"
+},
+"glute hamstring walkout - butt on the ground": {
+"cue": "Hips off ground",
+"kind": "fault"
+},
+"glute hamstring walkout - dropping hips too low": {
+"cue": "Keep hips high",
+"kind": "fault"
+},
+"glute hamstring walkout - feet too narrow": {
+"cue": "Widen your feet",
+"kind": "fault"
+},
+"glute hamstring walkout - feet too wide": {
+"cue": "Bring feet closer",
+"kind": "fault"
+},
+"glute hamstring walkout - foot flat on the ground": {
+"cue": "Walk on heels",
+"kind": "fault"
+},
+"glute hamstring walkout - head off ground": {
+"cue": "Rest head down",
+"kind": "fault"
+},
+"glute hamstring walkout - knees in": {
+"cue": "Push knees out",
+"kind": "fault"
+},
+"glute hamstring walkout - knees out": {
+"cue": "Keep knees aligned",
+"kind": "fault"
+},
+"glute hamstring walkout - on your toes": {
+"cue": "Drive through heels",
+"kind": "fault"
+},
+"glute hamstring walkout - rom=1": {
+"cue": "Walk out further",
+"kind": "fault"
+},
+"glute hamstring walkout - rom=2": {
+"cue": "Extend legs more",
+"kind": "fault"
+},
+"glute hamstring walkout - rom=3": {
+"cue": "",
+"kind": "neutral"
+},
+"glute hamstring walkout - rom=4": {
+"cue": "Great range",
+"kind": "good"
+},
+"glute hamstring walkout - rom=5": {
+"cue": "Excellent range",
+"kind": "good"
+},
+"glute hamstring walkout - shoulders off the ground": {
+"cue": "Keep shoulders down",
+"kind": "fault"
+},
+"glute hamstring walkout - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"glute hamstring walkout - stepping in-place": {
+"cue": "Walk feet out",
+"kind": "fault"
+},
+"glute hamstring walkout - stepping too big": {
+"cue": "Take smaller steps",
+"kind": "fault"
+},
+"glute hamstring walkout - too fast": {
+"cue": "Slow it down",
+"kind": "fault"
+},
+"glute hamstring walkout - too slow": {
+"cue": "Speed it up",
+"kind": "fault"
+},
+"glutes bridge - arms crossed": {
+"cue": "",
+"kind": "neutral"
+},
+"glutes bridge - arms on the ground": {
+"cue": "",
+"kind": "neutral"
+},
+"glutes bridge - arms up in the air": {
+"cue": "",
+"kind": "neutral"
+},
+"glutes bridge - feet too narrow": {
+"cue": "Step feet wider",
+"kind": "fault"
+},
+"glutes bridge - feet too wide": {
+"cue": "Bring feet closer",
+"kind": "fault"
+},
+"glutes bridge - head off the floor": {
+"cue": "Rest head down",
+"kind": "fault"
+},
+"glutes bridge - heels off the ground": {
+"cue": "Drive through heels",
+"kind": "fault"
+},
+"glutes bridge - hips slightly too low": {
+"cue": "Squeeze hips higher",
+"kind": "fault"
+},
+"glutes bridge - hips very low": {
+"cue": "Drive hips up",
+"kind": "fault"
+},
+"glutes bridge - knees in": {
+"cue": "Push knees out",
+"kind": "fault"
+},
+"glutes bridge - knees out": {
+"cue": "Keep knees aligned",
+"kind": "fault"
+},
+"glutes bridge - shoulders off the ground": {
+"cue": "Keep shoulders down",
+"kind": "fault"
+},
+"glutes bridge - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"glutes bridge - stopping early": {
+"cue": "Finish the set",
+"kind": "fault"
+},
+"glutes bridge - too fast": {
+"cue": "Slow it down",
+"kind": "fault"
+},
+"glutes bridge - too slow": {
+"cue": "",
+"kind": "neutral"
+},
+"good morning - elbows forward": {
+"cue": "Pull elbows back",
+"kind": "fault"
+},
+"good morning - insufficient": {
+"cue": "Hinge deeper",
+"kind": "fault"
+},
+"good morning - no issues": {
+"cue": "Great form",
+"kind": "good"
+},
+"good morning - rounded back": {
+"cue": "Keep back flat",
+"kind": "fault"
+},
+"good morning - too low": {
+"cue": "Stop at parallel",
+"kind": "fault"
+},
+"high knees - angle=30.0 degrees": {
+"cue": "Get knees higher",
+"kind": "fault"
+},
+"high knees - angle=45.0 degrees": {
+"cue": "Drive knees up",
+"kind": "fault"
+},
+"high knees - angle=60.0 degrees": {
+"cue": "Knees a bit higher",
+"kind": "fault"
+},
+"high knees - angle=90.0 degrees": {
+"cue": "Perfect height",
+"kind": "good"
+},
+"high knees - arms down": {
+"cue": "Pump your arms",
+"kind": "fault"
+},
+"high knees - early stopping": {
+"cue": "Keep moving",
+"kind": "fault"
+},
+"high knees - not in place": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees - not jumping": {
+"cue": "Add a bounce",
+"kind": "fault"
+},
+"high knees - not straight": {
+"cue": "Stand up tall",
+"kind": "fault"
+},
+"high knees - only left leg": {
+"cue": "Use both legs",
+"kind": "fault"
+},
+"high knees - single repetition": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees - speed=1.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees - speed=2.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees - speed=2.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees - too slow": {
+"cue": "Pick up the pace",
+"kind": "fault"
+},
+"high knees march - arms only": {
+"cue": "Lift your knees",
+"kind": "fault"
+},
+"high knees march - height=1": {
+"cue": "Drive knees higher",
+"kind": "fault"
+},
+"high knees march - height=2": {
+"cue": "Knees higher",
+"kind": "fault"
+},
+"high knees march - height=3": {
+"cue": "Bring knees up",
+"kind": "fault"
+},
+"high knees march - height=4": {
+"cue": "Nice height",
+"kind": "good"
+},
+"high knees march - height=5": {
+"cue": "Excellent height",
+"kind": "good"
+},
+"high knees march - looking down": {
+"cue": "Look straight ahead",
+"kind": "fault"
+},
+"high knees march - moving wrong arm": {
+"cue": "Pump opposite arms",
+"kind": "fault"
+},
+"high knees march - no arms": {
+"cue": "Swing your arms",
+"kind": "fault"
+},
+"high knees march - no issues": {
+"cue": "Great job",
+"kind": "good"
+},
+"high knees march - sloppy arms": {
+"cue": "Pump arms actively",
+"kind": "fault"
+},
+"high knees march - speed=0.80 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees march - speed=1.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees march - speed=1.10 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees march - speed=1.20 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees march - speed=1.30 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"high knees march - stopping early": {
+"cue": "Keep marching",
+"kind": "fault"
+},
+"high plank - average": {
+"cue": "",
+"kind": "neutral"
+},
+"high plank - elbows bent": {
+"cue": "Lock your elbows",
+"kind": "fault"
+},
+"high plank - hips too high": {
+"cue": "Lower your hips",
+"kind": "fault"
+},
+"high plank - hips too low": {
+"cue": "Raise your hips",
+"kind": "fault"
+},
+"high plank - knees bent": {
+"cue": "Squeeze your quads",
+"kind": "fault"
+},
+"high plank - knees on floor": {
+"cue": "Lift knees up",
+"kind": "fault"
+},
+"high plank - looking up": {
+"cue": "Look straight down",
+"kind": "fault"
+},
+"high plank - moving arms": {
+"cue": "Keep arms still",
+"kind": "fault"
+},
+"high plank - moving feet": {
+"cue": "Keep feet still",
+"kind": "fault"
+},
+"high plank - rounded shoulders": {
+"cue": "Push floor away",
+"kind": "fault"
+},
+"high plank - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"high plank - stopping early": {
+"cue": "Hold the plank",
+"kind": "fault"
+},
+"jumping jacks - arms_rom=2.0": {
+"cue": "Reach arms higher",
+"kind": "fault"
+},
+"jumping jacks - arms_rom=3.0": {
+"cue": "Bring arms up",
+"kind": "fault"
+},
+"jumping jacks - arms_rom=4.0": {
+"cue": "Great arm reach",
+"kind": "good"
+},
+"jumping jacks - legs_rom=1.0": {
+"cue": "Step feet wider",
+"kind": "fault"
+},
+"jumping jacks - legs_rom=2.0": {
+"cue": "Jump feet wider",
+"kind": "fault"
+},
+"jumping jacks - legs_rom=3.0": {
+"cue": "Nice wide stance",
+"kind": "good"
+},
+"jumping jacks - not jumping": {
+"cue": "Add the jump",
+"kind": "fault"
+},
+"jumping jacks - only arms": {
+"cue": "Move your legs",
+"kind": "fault"
+},
+"jumping jacks - only legs": {
+"cue": "Use your arms",
+"kind": "fault"
+},
+"jumping jacks - opposite": {
+"cue": "Sync arms and legs",
+"kind": "fault"
+},
+"jumping jacks - puppet dance": {
+"cue": "Keep movements sharp",
+"kind": "fault"
+},
+"jumping jacks - single repetition": {
+"cue": "",
+"kind": "neutral"
+},
+"jumping jacks - speed=0.50 rps": {
+"cue": "Pick up the pace",
+"kind": "fault"
+},
+"jumping jacks - speed=0.75 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"jumping jacks - speed=1.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"jumping lunges - knee over toes": {
+"cue": "Step further back",
+"kind": "fault"
+},
+"jumping lunges - large steps": {
+"cue": "",
+"kind": "neutral"
+},
+"jumping lunges - leaning forward": {
+"cue": "Chest up",
+"kind": "fault"
+},
+"jumping lunges - losing balance": {
+"cue": "Find your balance",
+"kind": "fault"
+},
+"jumping lunges - medium steps": {
+"cue": "",
+"kind": "neutral"
+},
+"jumping lunges - no obvious issue": {
+"cue": "Great form",
+"kind": "good"
+},
+"jumping lunges - not alternating legs": {
+"cue": "Alternate your legs",
+"kind": "fault"
+},
+"jumping lunges - small steps": {
+"cue": "Take bigger steps",
+"kind": "fault"
+},
+"jumping lunges - speed=0.60 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"jumping lunges - speed=0.80 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"jumping lunges - speed=1.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"jumping lunges - squat_depth=1": {
+"cue": "Sink much deeper",
+"kind": "fault"
+},
+"jumping lunges - squat_depth=2": {
+"cue": "Get lower",
+"kind": "fault"
+},
+"jumping lunges - squat_depth=3": {
+"cue": "",
+"kind": "neutral"
+},
+"jumping lunges - squat_depth=4": {
+"cue": "Nice depth",
+"kind": "good"
+},
+"jumping lunges - squat_depth=5": {
+"cue": "Excellent depth",
+"kind": "good"
+},
+"jumping lunges - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"low lunge pose (right leg back) - bending knee too far forward": {
+"cue": "Knee behind toes",
+"kind": "fault"
+},
+"low lunge pose (right leg back) - knee above ankle": {
+"cue": "Perfect alignment",
+"kind": "good"
+},
+"low lunge pose (right leg back) - knee above ankle, arms down": {
+"cue": "",
+"kind": "neutral"
+},
+"low lunge pose (right leg back) - knee above ankle, butt as low as possible": {
+"cue": "Great depth",
+"kind": "good"
+},
+"low lunge pose (right leg back) - looking down": {
+"cue": "Look straight ahead",
+"kind": "fault"
+},
+"low lunge pose (right leg back) - stopping early": {
+"cue": "Keep holding it",
+"kind": "fault"
+},
+"low lunge pose (right leg back) - upper body leaning forward": {
+"cue": "Keep chest up",
+"kind": "fault"
+},
+"lunges (right leg out in front) - average": {
+"cue": "",
+"kind": "neutral"
+},
+"lunges (right leg out in front) - fast": {
+"cue": "",
+"kind": "neutral"
+},
+"lunges (right leg out in front) - front knee going forward over toes": {
+"cue": "Knee behind toes",
+"kind": "fault"
+},
+"lunges (right leg out in front) - hands on hips": {
+"cue": "",
+"kind": "neutral"
+},
+"lunges (right leg out in front) - insufficient": {
+"cue": "Get lower",
+"kind": "fault"
+},
+"lunges (right leg out in front) - narrow space between legs": {
+"cue": "Widen your stance",
+"kind": "fault"
+},
+"lunges (right leg out in front) - not bending back leg": {
+"cue": "Bend back knee",
+"kind": "fault"
+},
+"lunges (right leg out in front) - not moving": {
+"cue": "Keep moving",
+"kind": "fault"
+},
+"lunges (right leg out in front) - upper body leaning forward": {
+"cue": "Chest up",
+"kind": "fault"
+},
+"lunges (right leg out in front) - very wide space between legs, front leg not vertical": {
+"cue": "Shorten your stance",
+"kind": "fault"
+},
+"lunges - left leg back": {
+"cue": "",
+"kind": "neutral"
+},
+"lunges stance - left leg back": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - depth=1": {
+"cue": "Bring knees higher",
+"kind": "fault"
+},
+"mountain-climbers - depth=2": {
+"cue": "Drive knees forward",
+"kind": "fault"
+},
+"mountain-climbers - depth=3": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - depth=4": {
+"cue": "Great range",
+"kind": "good"
+},
+"mountain-climbers - depth=5": {
+"cue": "Excellent range",
+"kind": "good"
+},
+"mountain-climbers - jumping": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - knees outward": {
+"cue": "Keep knees straight",
+"kind": "fault"
+},
+"mountain-climbers - knees twisting inwards": {
+"cue": "Keep knees straight",
+"kind": "fault"
+},
+"mountain-climbers - looking down": {
+"cue": "Look slightly forward",
+"kind": "fault"
+},
+"mountain-climbers - no moving": {
+"cue": "Keep moving",
+"kind": "fault"
+},
+"mountain-climbers - not bringing feet forward": {
+"cue": "Drive knees forward",
+"kind": "fault"
+},
+"mountain-climbers - rounded back": {
+"cue": "Flatten your back",
+"kind": "fault"
+},
+"mountain-climbers - running feet": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - sliding feet back": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - speed=0.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - speed=1.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - speed=1.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - speed=2.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - speed=2.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - stepping": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - stopping early": {
+"cue": "Keep going",
+"kind": "fault"
+},
+"mountain-climbers - width=1": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - width=2": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - width=3": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - width=4": {
+"cue": "",
+"kind": "neutral"
+},
+"mountain-climbers - width=5": {
+"cue": "",
+"kind": "neutral"
+},
+"moving plank - \"one arm at a time\" cheat": {
+"cue": "Move arms together",
+"kind": "fault"
+},
+"moving plank - butt moving side-to-side": {
+"cue": "Keep hips steady",
+"kind": "fault"
+},
+"moving plank - head down": {
+"cue": "Look slightly forward",
+"kind": "fault"
+},
+"moving plank - high hips": {
+"cue": "Hips down",
+"kind": "fault"
+},
+"moving plank - legs apart": {
+"cue": "",
+"kind": "neutral"
+},
+"moving plank - legs together": {
+"cue": "",
+"kind": "neutral"
+},
+"moving plank - speed=0.25 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"moving plank - speed=0.30 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"moving plank - speed=0.35 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"moving plank - speed=0.40 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"moving plank - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps (on knees) - head down": {
+"cue": "Look slightly forward",
+"kind": "fault"
+},
+"plank taps (on knees) - legs apart": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps (on knees) - legs together": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps (on knees) - no obvious issue": {
+"cue": "Great form",
+"kind": "good"
+},
+"plank taps (on knees) - speed=0.75 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps (on knees) - speed=0.95 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps - head down": {
+"cue": "Look slightly forward",
+"kind": "fault"
+},
+"plank taps - high hips": {
+"cue": "Hips down",
+"kind": "fault"
+},
+"plank taps - legs apart": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps - legs together": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps - moving hips": {
+"cue": "Keep hips still",
+"kind": "fault"
+},
+"plank taps - no obvious issue": {
+"cue": "Great form",
+"kind": "good"
+},
+"plank taps - speed=0.60 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps - speed=0.75 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps - speed=0.85 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps - speed=0.95 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"plank taps - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"plie squat - average": {
+"cue": "",
+"kind": "neutral"
+},
+"plie squat - feet out 45 degrees": {
+"cue": "",
+"kind": "neutral"
+},
+"puddle jump - back feet touching floor": {
+"cue": "Keep back foot up",
+"kind": "fault"
+},
+"puddle jump - deep": {
+"cue": "Great depth",
+"kind": "good"
+},
+"puddle jump - narrow": {
+"cue": "",
+"kind": "neutral"
+},
+"puddle jump - no jump": {
+"cue": "Add a jump",
+"kind": "fault"
+},
+"puddle jump - normal width": {
+"cue": "",
+"kind": "neutral"
+},
+"puddle jump - not bending front leg": {
+"cue": "Bend your front leg",
+"kind": "fault"
+},
+"puddle jump - shallow": {
+"cue": "Get lower",
+"kind": "fault"
+},
+"puddle jump - speed=0.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"puddle jump - speed=0.75 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"puddle jump - speed=1.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"puddle jump - wide": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups (on knees) - 90 degrees": {
+"cue": "Perfect depth",
+"kind": "good"
+},
+"pushups (on knees) - deep": {
+"cue": "Nice and deep",
+"kind": "good"
+},
+"pushups (on knees) - elevated hips": {
+"cue": "Hips down",
+"kind": "fault"
+},
+"pushups (on knees) - shallow": {
+"cue": "Go lower",
+"kind": "fault"
+},
+"pushups (on knees) - shoulder-width": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups (on knees) - very wide": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups (on knees) - waiting position": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups (on knees) - wide": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups - 90 degrees": {
+"cue": "Perfect depth",
+"kind": "good"
+},
+"pushups - child pose cheat": {
+"cue": "Stay in plank",
+"kind": "fault"
+},
+"pushups - deep": {
+"cue": "Nice and deep",
+"kind": "good"
+},
+"pushups - early stopping": {
+"cue": "Keep going",
+"kind": "fault"
+},
+"pushups - elevated hips": {
+"cue": "Hips down",
+"kind": "fault"
+},
+"pushups - fast": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups - head moving in an out of frame": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups - insufficient": {
+"cue": "Go lower",
+"kind": "fault"
+},
+"pushups - legs on the floor": {
+"cue": "Keep knees up",
+"kind": "fault"
+},
+"pushups - narrow": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups - shallow": {
+"cue": "Go lower",
+"kind": "fault"
+},
+"pushups - shoulder-width": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups - side to side": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups - very wide": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups - waiting position": {
+"cue": "",
+"kind": "neutral"
+},
+"pushups - wide": {
+"cue": "",
+"kind": "neutral"
+},
+"quad stretch (left) - getting into position": {
+"cue": "",
+"kind": "neutral"
+},
+"quad stretch (left) - no grab": {
+"cue": "Pull your foot back to your glute",
+"kind": "fault"
+},
+"quad stretch (left) - wrong side": {
+"cue": "Use your other leg",
+"kind": "fault"
+},
+"quad stretch (right) - average": {
+"cue": "",
+"kind": "neutral"
+},
+"quad stretch (right) - getting into position": {
+"cue": "",
+"kind": "neutral"
+},
+"quad stretch (right) - no grab": {
+"cue": "Pull your foot back to your glute",
+"kind": "fault"
+},
+"quad stretch (right) - wrong side": {
+"cue": "Use your other leg",
+"kind": "fault"
+},
+"quick feet - hunched back": {
+"cue": "Keep back straight",
+"kind": "fault"
+},
+"quick feet - leaning forward": {
+"cue": "Stand up taller",
+"kind": "fault"
+},
+"quick feet - lifting feet too high": {
+"cue": "Keep feet low",
+"kind": "fault"
+},
+"quick feet - looking down": {
+"cue": "Look straight ahead",
+"kind": "fault"
+},
+"quick feet - moving upper-body": {
+"cue": "Keep upper body still",
+"kind": "fault"
+},
+"quick feet - narrow": {
+"cue": "",
+"kind": "neutral"
+},
+"quick feet - no obvious issue": {
+"cue": "Great pace",
+"kind": "good"
+},
+"quick feet - not leaning forward": {
+"cue": "",
+"kind": "neutral"
+},
+"quick feet - not lifting feet": {
+"cue": "Pick up your feet",
+"kind": "fault"
+},
+"quick feet - shaking knees": {
+"cue": "Steady your knees",
+"kind": "fault"
+},
+"quick feet - shoulder-width": {
+"cue": "",
+"kind": "neutral"
+},
+"quick feet - speed=1.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"quick feet - speed=1.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"quick feet - speed=2.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"quick feet - speed=2.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"quick feet - speed=3.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"quick feet - stopping early": {
+"cue": "Keep going",
+"kind": "fault"
+},
+"quick feet - too slow": {
+"cue": "Pick up the pace",
+"kind": "fault"
+},
+"quick feet - wide": {
+"cue": "",
+"kind": "neutral"
+},
+"shoulder gators - looking down": {
+"cue": "Look straight ahead",
+"kind": "fault"
+},
+"shoulder gators - no obvious issue": {
+"cue": "Great form",
+"kind": "good"
+},
+"shoulder gators - not moving back": {
+"cue": "Open your chest",
+"kind": "fault"
+},
+"shoulder gators - not moving forward": {
+"cue": "Bring elbows together",
+"kind": "fault"
+},
+"shoulder gators - range_of_motion=1": {
+"cue": "Open wider",
+"kind": "fault"
+},
+"shoulder gators - range_of_motion=2": {
+"cue": "Open wider",
+"kind": "fault"
+},
+"shoulder gators - range_of_motion=3": {
+"cue": "",
+"kind": "neutral"
+},
+"shoulder gators - range_of_motion=4": {
+"cue": "Great range",
+"kind": "good"
+},
+"shoulder gators - range_of_motion=5": {
+"cue": "Excellent range",
+"kind": "good"
+},
+"shoulder gators - snappy": {
+"cue": "",
+"kind": "neutral"
+},
+"shoulder gators - too fast": {
+"cue": "Slow it down",
+"kind": "fault"
+},
+"shoulder gators - upper body moving": {
+"cue": "Keep torso still",
+"kind": "fault"
+},
+"side plank - arm in air": {
+"cue": "",
+"kind": "neutral"
+},
+"side plank - balance on leg": {
+"cue": "",
+"kind": "neutral"
+},
+"side plank - both knees on floor": {
+"cue": "",
+"kind": "neutral"
+},
+"side plank - drooping head": {
+"cue": "Keep head aligned",
+"kind": "fault"
+},
+"side plank - elbow below head": {
+"cue": "Elbow under shoulder",
+"kind": "fault"
+},
+"side plank - elbow below shoulder": {
+"cue": "Perfect elbow alignment",
+"kind": "good"
+},
+"side plank - high hips": {
+"cue": "Hips in line",
+"kind": "fault"
+},
+"side plank - leaning forward": {
+"cue": "Open your chest",
+"kind": "fault"
+},
+"side plank - low hips": {
+"cue": "Lift your hips",
+"kind": "fault"
+},
+"side plank - no obvious issue": {
+"cue": "Great form",
+"kind": "good"
+},
+"spider man pushup - arms too narrow": {
+"cue": "Hands wider",
+"kind": "fault"
+},
+"spider man pushup - arms too wide": {
+"cue": "Bring hands closer",
+"kind": "fault"
+},
+"spider man pushup - average": {
+"cue": "",
+"kind": "neutral"
+},
+"spider man pushup - dragging foot": {
+"cue": "Lift your foot",
+"kind": "fault"
+},
+"spider man pushup - hips too high": {
+"cue": "Hips down",
+"kind": "fault"
+},
+"spider man pushup - hips too low": {
+"cue": "Hips up",
+"kind": "fault"
+},
+"spider man pushup - no pushup": {
+"cue": "Add the pushup",
+"kind": "fault"
+},
+"spider man pushup - not alternating": {
+"cue": "Alternate your legs",
+"kind": "fault"
+},
+"spider man pushup - not bringing leg far enough": {
+"cue": "Knee to elbow",
+"kind": "fault"
+},
+"spider man pushup - not synchronized (down, leg in, up, leg out)": {
+"cue": "Sync your movement",
+"kind": "fault"
+},
+"spider man pushup - not synchronized (down, leg, up)": {
+"cue": "Sync your movement",
+"kind": "fault"
+},
+"spider man pushup - not synchronized (down, up, leg)": {
+"cue": "Sync your movement",
+"kind": "fault"
+},
+"spider man pushup - rom=1": {
+"cue": "Push deeper",
+"kind": "fault"
+},
+"spider man pushup - rom=2": {
+"cue": "Go lower",
+"kind": "fault"
+},
+"spider man pushup - rom=3": {
+"cue": "",
+"kind": "neutral"
+},
+"spider man pushup - rom=4": {
+"cue": "Great depth",
+"kind": "good"
+},
+"spider man pushup - rom=5": {
+"cue": "Excellent range",
+"kind": "good"
+},
+"spider man pushup - shallow pushup": {
+"cue": "Chest to floor",
+"kind": "fault"
+},
+"spider man pushup - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"spider man pushup - too fast": {
+"cue": "Slow it down",
+"kind": "fault"
+},
+"spider man pushup - too slow": {
+"cue": "Pick up pace",
+"kind": "fault"
+},
+"squat jabs - average": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jacks - as fast as possible": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jacks - average": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jacks - low turnover": {
+"cue": "Move faster",
+"kind": "fault"
+},
+"squat jacks - no arms": {
+"cue": "Use your arms",
+"kind": "fault"
+},
+"squat jacks - no jump": {
+"cue": "Add the jump",
+"kind": "fault"
+},
+"squat jacks - no squat": {
+"cue": "Sink lower",
+"kind": "fault"
+},
+"squat jacks - shallow squat": {
+"cue": "Squat deeper",
+"kind": "fault"
+},
+"squat jacks - shallow squat no jump": {
+"cue": "Squat and jump",
+"kind": "fault"
+},
+"squat jacks - stopping early": {
+"cue": "Keep going",
+"kind": "fault"
+},
+"squat jump - butt below knees": {
+"cue": "Great depth",
+"kind": "good"
+},
+"squat jump - jump_height=1": {
+"cue": "Jump higher",
+"kind": "fault"
+},
+"squat jump - jump_height=2": {
+"cue": "Jump higher",
+"kind": "fault"
+},
+"squat jump - jump_height=3": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jump - jump_height=4": {
+"cue": "Nice height",
+"kind": "good"
+},
+"squat jump - jump_height=5": {
+"cue": "Great power",
+"kind": "good"
+},
+"squat jump - knees over toes": {
+"cue": "Sit hips back",
+"kind": "fault"
+},
+"squat jump - lazy": {
+"cue": "Power up",
+"kind": "fault"
+},
+"squat jump - leaning forward": {
+"cue": "Chest up",
+"kind": "fault"
+},
+"squat jump - narrow space between legs": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jump - no obvious issue": {
+"cue": "Looking good",
+"kind": "good"
+},
+"squat jump - speed=0.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jump - speed=0.60 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jump - speed=0.80 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jump - speed=1.00 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jump - squat_depth=1": {
+"cue": "Squat deeper",
+"kind": "fault"
+},
+"squat jump - squat_depth=2": {
+"cue": "Sink lower",
+"kind": "fault"
+},
+"squat jump - squat_depth=3": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jump - squat_depth=4": {
+"cue": "Nice depth",
+"kind": "good"
+},
+"squat jump - squat_depth=5": {
+"cue": "Excellent depth",
+"kind": "good"
+},
+"squat jump - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"squat jump - wide space between legs": {
+"cue": "",
+"kind": "neutral"
+},
+"squat kick - butt below knees": {
+"cue": "Great depth",
+"kind": "good"
+},
+"squat kick - kick_height=1": {
+"cue": "Kick higher",
+"kind": "fault"
+},
+"squat kick - kick_height=2": {
+"cue": "Kick higher",
+"kind": "fault"
+},
+"squat kick - kick_height=3": {
+"cue": "",
+"kind": "neutral"
+},
+"squat kick - kick_height=4": {
+"cue": "Nice kick",
+"kind": "good"
+},
+"squat kick - kick_height=5": {
+"cue": "Great kick",
+"kind": "good"
+},
+"squat kick - knees over toes": {
+"cue": "Sit hips back",
+"kind": "fault"
+},
+"squat kick - leaning forward": {
+"cue": "Keep chest up",
+"kind": "fault"
+},
+"squat kick - narrow space between legs": {
+"cue": "",
+"kind": "neutral"
+},
+"squat kick - no obvious issue": {
+"cue": "Perfect form",
+"kind": "good"
+},
+"squat kick - not lifting knees": {
+"cue": "Drive knees up",
+"kind": "fault"
+},
+"squat kick - speed=0.20 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"squat kick - speed=0.40 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"squat kick - squat_depth=1": {
+"cue": "Squat deeper",
+"kind": "fault"
+},
+"squat kick - squat_depth=2": {
+"cue": "Sink lower",
+"kind": "fault"
+},
+"squat kick - squat_depth=3": {
+"cue": "",
+"kind": "neutral"
+},
+"squat kick - squat_depth=4": {
+"cue": "Nice depth",
+"kind": "good"
+},
+"squat kick - squat_depth=5": {
+"cue": "Excellent depth",
+"kind": "good"
+},
+"squat punch - leaning forward": {
+"cue": "Chest up",
+"kind": "fault"
+},
+"squat punch - no obvious issue": {
+"cue": "Great form",
+"kind": "good"
+},
+"squat punch - one arm": {
+"cue": "Punch both arms",
+"kind": "fault"
+},
+"squat punch - speed=0.40 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"squat punch - speed=0.50 rps": {
+"cue": "",
+"kind": "neutral"
+},
+"squat punch - squat_depth=2": {
+"cue": "Squat deeper",
+"kind": "fault"
+},
+"squat punch - squat_depth=3": {
+"cue": "Sink lower",
+"kind": "fault"
+},
+"squat punch - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"squats - 90 degrees": {
+"cue": "Perfect depth",
+"kind": "good"
+},
+"squats - back not straight": {
+"cue": "Keep back straight",
+"kind": "fault"
+},
+"squats - hold": {
+"cue": "",
+"kind": "neutral"
+},
+"squats - insufficient": {
+"cue": "Squat deeper",
+"kind": "fault"
+},
+"squats - knees over toes": {
+"cue": "Hips back",
+"kind": "fault"
+},
+"squats - narrow": {
+"cue": "",
+"kind": "neutral"
+},
+"squats - no obvious issue": {
+"cue": "Nice job",
+"kind": "good"
+},
+"squats - over 90 degrees": {
+"cue": "Great depth",
+"kind": "good"
+},
+"squats - plie": {
+"cue": "",
+"kind": "neutral"
+},
+"squats - shallow": {
+"cue": "Sink lower",
+"kind": "fault"
+},
+"squats - shoulder-width": {
+"cue": "",
+"kind": "neutral"
+},
+"squats - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"squats - wide": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kick (alternate legs) - arms extended": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kick (alternate legs) - hands behind head": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kick (alternate legs) - hands on hips": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kick (alternate legs) - kicking high": {
+"cue": "Great height",
+"kind": "good"
+},
+"standing kick (alternate legs) - kicking low": {
+"cue": "Kick higher",
+"kind": "fault"
+},
+"standing kick (alternate legs) - kneeing": {
+"cue": "Straighten your legs",
+"kind": "fault"
+},
+"standing kick (alternate legs) - not visible": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kicks (right leg) - as fast as possible": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kicks (right leg) - average": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kicks (right leg) - bent knee": {
+"cue": "Straighten your leg",
+"kind": "fault"
+},
+"standing kicks (right leg) - hands behind head": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kicks (right leg) - hands on hips": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kicks (right leg) - insufficient kicks": {
+"cue": "Keep kicking",
+"kind": "fault"
+},
+"standing kicks (right leg) - kick as high as possible": {
+"cue": "",
+"kind": "neutral"
+},
+"standing kicks (right leg) - lower kicks": {
+"cue": "Kick higher",
+"kind": "fault"
+},
+"standing kicks (right leg) - slow": {
+"cue": "Pick up the pace",
+"kind": "fault"
+},
+"toe touch - bent knees": {
+"cue": "Keep legs straight",
+"kind": "fault"
+},
+"toe touch - getting into position": {
+"cue": "",
+"kind": "neutral"
+},
+"toe touch - hands at ankles": {
+"cue": "",
+"kind": "neutral"
+},
+"toe touch - hands at feet": {
+"cue": "Great reach",
+"kind": "good"
+},
+"toe touch - hands at knees": {
+"cue": "Reach lower",
+"kind": "fault"
+},
+"toe touch - hands on floor": {
+"cue": "Excellent flexibility",
+"kind": "good"
+},
+"toe touch - legs straight": {
+"cue": "Nice form",
+"kind": "good"
+},
+"toe touch - stopping early": {
+"cue": "Hold the stretch",
+"kind": "fault"
+},
+"toe touch - wide feet": {
+"cue": "",
+"kind": "neutral"
+},
+"yoga pushup - arms too narrow": {
+"cue": "Widen your hands",
+"kind": "fault"
+},
+"yoga pushup - arms too wide": {
+"cue": "Bring hands closer",
+"kind": "fault"
+},
+"yoga pushup - average": {
+"cue": "",
+"kind": "neutral"
+},
+"yoga pushup - bent knees": {
+"cue": "Straighten your legs",
+"kind": "fault"
+},
+"yoga pushup - heels off the floor": {
+"cue": "Heels to the floor",
+"kind": "fault"
+},
+"yoga pushup - hips too high during pushup phase": {
+"cue": "Hips down",
+"kind": "fault"
+},
+"yoga pushup - hips too low": {
+"cue": "Hips up",
+"kind": "fault"
+},
+"yoga pushup - looking up": {
+"cue": "Look down",
+"kind": "fault"
+},
+"yoga pushup - no pushup": {
+"cue": "Do the pushup",
+"kind": "fault"
+},
+"yoga pushup - not finishing the pushup, going straight to downward dog": {
+"cue": "Finish the pushup",
+"kind": "fault"
+},
+"yoga pushup - rom=1": {
+"cue": "Go deeper",
+"kind": "fault"
+},
+"yoga pushup - rom=2": {
+"cue": "Increase your range",
+"kind": "fault"
+},
+"yoga pushup - rom=3": {
+"cue": "",
+"kind": "neutral"
+},
+"yoga pushup - rom=4": {
+"cue": "Great range",
+"kind": "good"
+},
+"yoga pushup - rom=5": {
+"cue": "Perfect range",
+"kind": "good"
+},
+"yoga pushup - rounded back": {
+"cue": "Flatten your back",
+"kind": "fault"
+},
+"yoga pushup - shallow pushup": {
+"cue": "Lower your chest",
+"kind": "fault"
+},
+"yoga pushup - starting late": {
+"cue": "",
+"kind": "neutral"
+},
+"yoga pushup - too fast": {
+"cue": "Slow it down",
+"kind": "fault"
+},
+"yoga pushup - too shallow downward dog": {
+"cue": "Push hips higher",
+"kind": "fault"
+},
+"yoga pushup - too slow": {
+"cue": "Pick up the pace",
+"kind": "fault"
+}
+}

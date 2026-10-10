@@ -1,0 +1,183 @@
+{
+"air jump rope": {
+"Jump higher": 0.287,
+"Jump on toes": 0.056,
+"Keep moving": 0.143,
+"Spin your wrists": 0.244,
+"Start jumping": 0.619
+},
+"alternating forward lunges": {
+"Bend back knee": 0.232,
+"Keep chest up": 0.167,
+"Lunge lower": 0.286,
+"Pick up pace": 0.143,
+"Sink deeper": 0.333
+},
+"buttkickers": {
+"Heels to glutes": 0.364,
+"Keep moving": 0.2,
+"Knees pointing down": 0.078,
+"Look straight ahead": 0.2,
+"Pick up the pace": 0.386,
+"Stay in place": 0.167
+},
+"deltoid stretch (left arm)": {
+"Keep arm straight": 0.136
+},
+"deltoid stretch (right arm)": {
+"Add the jump": 0.2,
+"Bring hands closer": 0.2,
+"Hands wider": 0.111,
+"Keep arm straight": 0.2,
+"Keep moving": 0.1,
+"Lift your knees": 0.067,
+"Move arms together": 0.125,
+"Open your chest": 0.167
+},
+"floor touches": {
+"Adjust your stance": 0.167,
+"Bring feet together": 0.136,
+"Keep back flat": 0.045,
+"Keep moving": 0.125,
+"Reach for floor": 0.731,
+"Reach lower": 0.5,
+"Step your feet": 0.062
+},
+"good morning": {
+"Keep back flat": 0.339
+},
+"high knees": {
+"Add a bounce": 0.181,
+"Drive knees up": 0.48,
+"Get knees higher": 0.562,
+"Keep moving": 0.125,
+"Knees a bit higher": 0.438,
+"Stand up tall": 0.015
+},
+"jumping jacks": {
+"Add the jump": 0.538,
+"Jump feet wider": 0.071,
+"Keep movements sharp": 0.083,
+"Move your legs": 0.625,
+"Pick up the pace": 0.417,
+"Step feet wider": 0.136,
+"Sync arms and legs": 0.222,
+"Use your arms": 0.733
+},
+"jumping lunges": {
+"Chest up": 0.042,
+"Find your balance": 0.053,
+"Get lower": 0.571,
+"Sink much deeper": 0.375,
+"Step further back": 0.125
+},
+"mountain-climbers": {
+"Bring knees higher": 0.2,
+"Drive knees forward": 0.2,
+"Flatten your back": 0.12,
+"Keep going": 0.143,
+"Keep knees straight": 0.03,
+"Keep moving": 0.111,
+"Look slightly forward": 0.036
+},
+"moving plank": {
+"Hips down": 0.143,
+"Look slightly forward": 0.091
+},
+"plank taps": {
+"Hips down": 0.091,
+"Keep hips still": 0.167,
+"Look slightly forward": 0.071
+},
+"puddle jump": {
+"Bend your front leg": 0.2,
+"Get lower": 0.292,
+"Keep back foot up": 0.091
+},
+"pushups": {
+"Go lower": 0.368,
+"Hips down": 0.111,
+"Keep going": 0.143,
+"Keep knees up": 0.111,
+"Stay in plank": 0.25
+},
+"quad stretch (left)": {
+"Add the jump": 0.091,
+"Alternate legs": 0.091,
+"Bend back knee": 0.2,
+"Bring hands closer": 0.062,
+"Drive knees up": 0.2,
+"Hands wider": 0.2,
+"Hold the plank": 0.2,
+"Keep arms still": 0.2,
+"Keep movements sharp": 0.111,
+"Keep moving": 0.111,
+"Look slightly forward": 0.2,
+"Move arms together": 0.167,
+"Pick up the pace": 0.067,
+"Point toes forward": 0.2,
+"Punch both arms": 0.2,
+"Sink deeper": 0.2,
+"Stay in plank": 0.2,
+"Step deeper": 0.2,
+"Step to side": 0.2,
+"Use both legs": 0.04,
+"Widen your hands": 0.2
+},
+"quad stretch (right)": {
+"Grab your foot": 0.043
+},
+"quick feet": {
+"Keep back straight": 0.045,
+"Keep feet low": 0.04,
+"Keep going": 0.25,
+"Keep upper body still": 0.094,
+"Pick up your feet": 0.143,
+"Stand up taller": 0.077,
+"Steady your knees": 0.083
+},
+"shoulder gators": {
+"Bring elbows together": 0.041,
+"Keep torso still": 0.136,
+"Look straight ahead": 0.2,
+"Open wider": 0.091,
+"Open your chest": 0.056,
+"Slow it down": 0.639
+},
+"squat jump": {
+"Chest up": 0.167,
+"Jump higher": 0.066,
+"Power up": 0.05,
+"Sink lower": 0.667,
+"Sit hips back": 0.083,
+"Squat deeper": 0.467
+},
+"squat kick": {
+"Drive knees up": 0.045,
+"Keep chest up": 0.118,
+"Kick higher": 0.474,
+"Sit hips back": 0.1,
+"Squat deeper": 0.5
+},
+"squat punch": {
+"Chest up": 0.038,
+"Punch both arms": 0.214,
+"Sink lower": 0.383,
+"Squat deeper": 0.591
+},
+"squats": {
+"Hips back": 0.2,
+"Keep back straight": 0.167,
+"Sink lower": 0.696,
+"Squat deeper": 0.474
+},
+"standing kick (alternate legs)": {
+"Kick higher": 0.357,
+"Straighten your legs": 0.1
+},
+"toe touch": {
+"Hold the stretch": 0.158,
+"Keep legs straight": 0.111,
+"Reach lower": 0.679
+}
+}
