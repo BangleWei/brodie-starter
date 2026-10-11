@@ -29,9 +29,9 @@ def on_event(event, say_now, ask_voice):
     """Greet once the session is open, ask the caller to prop the phone so the board is in view, and nudge once if the caller
     goes quiet mid-recipe. The model holds the recipe and runs the steps from what it sees and hears."""
     if event['type'] == 'session' and event.get('state') == 'open' and event.get('mode') == 'voice':
-        ask_voice('The call just started. In one or two short sentences: introduce yourself as Chef Brodie, say you are making '
-                  'guacamole together, and ask them to prop the phone so you can see the cutting board and their hands. '
-                  'Do not start the recipe yet.')
+        ask_voice('The call just started. In one or two short sentences: introduce yourself as Chef Brodie, ask what they '
+                  'want to make today (or offer to suggest something from what is on their counter), and ask them to prop the '
+                  'phone so you can see the board and their hands. Do not start a recipe yet.')
         # One check-in at 4 minutes, roughly when the knife work should be underway.
         later(4 * 60, 'About four minutes in. If the caller is cutting, comment on their grip in one short sentence; '
                       'otherwise ask in one short sentence which step they are on.', ask_voice)
