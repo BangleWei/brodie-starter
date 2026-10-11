@@ -1,0 +1,16 @@
+# Holds the Chert FaceTime line for agent "chef". Needs a one-time `chert login --device` as user chef (lasts 30 days).
+[Unit]
+Description=Chert line for Chef Brodie
+After=network-online.target chef-worker.service
+Wants=network-online.target
+
+[Service]
+User=chef
+WorkingDirectory=/home/chef/brodie-rt-coach
+Environment=PATH=/home/chef/.nvm/versions/node/v24.21.0/bin:/usr/bin:/bin
+ExecStart=/home/chef/.nvm/versions/node/v24.21.0/bin/chert dev --agent chef
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

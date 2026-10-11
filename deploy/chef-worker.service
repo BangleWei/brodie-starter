@@ -1,0 +1,19 @@
+# Chef Brodie worker (the brain). Install: sudo cp deploy/chef-*.service /etc/systemd/system/ && sudo systemctl daemon-reload
+# Assumes user "chef" with the fork cloned at /home/chef/brodie-rt-coach (see deploy/README.md).
+[Unit]
+Description=Chef Brodie LiveKit worker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=chef
+WorkingDirectory=/home/chef/brodie-rt-coach
+EnvironmentFile=/home/chef/brodie-rt-coach/.env.local
+ExecStart=/home/chef/brodie-rt-coach/.venv/bin/python -m facetime.worker --perception off --vision --voice gemini \
+  --persona starter/examples/chef_brodie/persona.md --plan-file starter/examples/chef_brodie/recipe.md \
+  --handlers starter/examples/chef_brodie/handlers.py --agent-name chef start
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
